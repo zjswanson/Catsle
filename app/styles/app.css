@@ -1,0 +1,18 @@
+img {
+  height:180px;
+  float:left;
+  padding: 10px;
+}
+
+.article-tile {
+  height: 200px;
+  background: green;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.article-body {
+  height: 100px;
+  overflow: hidden;
+}
