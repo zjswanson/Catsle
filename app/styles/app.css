@@ -1,4 +1,12 @@
-img {
+body {
+  background-image: url('/assets/geometry.png');
+}
+
+.navbar{
+
+}
+
+.article-tile img {
   height:180px;
   float:left;
   padding: 10px;
@@ -6,10 +14,10 @@ img {
 
 .article-tile {
   height: 200px;
-  background: green;
   padding: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 .article-body {

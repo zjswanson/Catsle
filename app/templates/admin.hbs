@@ -1,0 +1,27 @@
+<h1>HELLO</h1>
+<div class="">
+  <form>
+    <div class="form-group">
+      <label for="author">Author</label>
+      {{input class="form-control" value=author id="author"}}
+    </div>
+    <div class="form-group">
+      <label for="title">Title</label>
+      {{input class="form-control" value=title id="title"}}
+    </div>
+    <div class="form-group">
+      <label for="image">Image link</label>
+      {{input class="form-control" value=image id="image"}}
+    </div>
+    <div class="form-group">
+      <label for="body">Body</label>
+      {{textarea class="form-control" value=body id="body"}}
+    </div>
+    <div class="form-group">
+      <label for="date">Date</label>
+      {{input class="form-control" value=date id="date"}}
+    </div>
+    <button {{action 'createArticle'}}>submit article</button>
+  </form>
+
+</div>

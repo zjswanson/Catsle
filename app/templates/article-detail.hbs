@@ -1,0 +1,14 @@
+<div class="article-detail">
+  <h1>{{model.featureArticle.title}}</h1>
+  <h3>{{model.featureArticle.author}}</h3>
+  <img src={{model.featureArticle.image}} alt="" />
+  <p>{{model.featureArticle.body}}</p>
+  <hr>
+
+  <h2>Keep Reading</h2>
+  {{#each model.allArticles as |article|}}
+    {{#if (check-id model.featureArticle.id article.id)}}
+      {{article-tile article=article}}
+      {{/if}}
+  {{/each}}
+</div>
